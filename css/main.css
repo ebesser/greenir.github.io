@@ -31,6 +31,7 @@ h1 {
 	text-shadow: 1px 1px 10px black;
 	background: url('../img/renewables.png') center;
 	background-size: 100%;
+	background-repeat:no-repeat;
 	padding: 0 0 10px 0;
 	
 }

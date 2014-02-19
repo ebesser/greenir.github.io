@@ -50,6 +50,10 @@ h1 {
 
 }
 
+.ss-form-question {
+	height: 80px;
+}
+
 .footer {
 	min-height: 100px;
 }

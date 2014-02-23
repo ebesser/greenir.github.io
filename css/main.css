@@ -1,37 +1,49 @@
-html{
-  height: 100%;
-}
+
 body {
-  min-height: 90%;
+  min-height: 100%;
+  background: url('../img/renewables.png') center;
+background-repeat:no-repeat;
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+background-size:cover;
+background-position:center;
 }
 
 img {
-	max-height: 375px;
-	max-width: 375px;
+	max-height: 300px;
+	max-width: 300px;
 
 }
 
 #mainbody {
 	
 	width: 100%;
-	height: 100%;
+	height: 120%;
 	
 }
 
+.fb-like {
+	text-align: center;
+	width: 99%;
+
+}
+
 .social {
-	height: 40px;
-	width: 40px;
+	height: 60px;
+	width: 60px;
 }
 h1 {
 	margin-top: 0;
+
 }
 #signup {
 	color: white;
 	text-align: center;
 	text-shadow: 3px 2px 22px #0C456B;
-	background: url('../img/renewables.png') center;
+/*	background: url('../img/renewables.png') center;
 	background-size: cover;
-	background-repeat:no-repeat;
+	background-repeat:no-repeat;*/
 	padding: 0 0 10px 0;
 	
 }
@@ -39,7 +51,7 @@ h1 {
 #signup h1 {
 	font-family: 'Oswald', sans-serif;
 	font-weight: 400;
-	font-size: 110px;
+	font-size: 130px;
 	text-shadow: 3px 2px 22px #0C456B;
 }
 
@@ -74,5 +86,24 @@ h1 {
 
 #socialmedia {
 	color: green;
+}
+
+/* =Responsive Structure
+----------------------------------------------- */
+@media (max-width: 800px) {
+       /* Smaller Resolution Desktops and Laptops */
+       [...]
+}
+@media (max-width: 650px) {
+       /* Smaller devices */
+       [...]
+}
+@media (max-width: 450px) {
+       /* Even Smaller devices */
+       [...]
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+       /* Even Smaller devices */
+       [...]
 }
 

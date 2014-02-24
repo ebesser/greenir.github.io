@@ -35,20 +35,21 @@
       font-size: 30px;
     }
 
-    ::-webkit-input-placeholder {
+   /* ::-webkit-input-placeholder {
        font-size: 25px;
        padding: 0;
-    }
+    }*/
     #navigation-table {
     	margin: 0 auto; 
     	text-align: center;
     }
 
     #ss-submit {
-    	margin-top: 200px;
+   /* 	margin-top: 200px;*/
+      vertical-align: top;
     	text-align: center;
     	margin: 0 auto;
-    	height: 60px;
+    	height: 70px;
     	width: 200px;
     	font-size: 20px;
     	color: white;
@@ -58,9 +59,9 @@
     	background-color: green;
     }
 
-    #ss-submit:active {
-    	border-bottom: none;
-    }
+   
+
+  
 
   </style>
   
@@ -84,41 +85,29 @@
 
       <h1>Greenir</h1>
 
-        <p style="font-size: 3em;">Affordable Renewable Energy For Your Home Or Apartment In Minutes</p>
+        <p style="font-size: 3em; margin-bottom: 30px;">Affordable Renewable Energy For Your Home Or Apartment In Minutes</p>
         <!-- <br />
         <p style="font-size: 2em;">Launching Soon!</p> -->
 
   	
 <!-- Signup Section -->	
-  <div class="ss-form-container">
-    <div class="ss-top-of-page">
-       <hr class="ss-email-break" style="display:none;">
-  	</div>
-  </div>
-  	<div class="ss-form">
-  <form action="https://docs.google.com/forms/d/1VabeKXIIRgnaO4IziemQ8XBPG580KaVNXNFRlIKtRMg/formResponse" method="POST" id="ss-form" target="_self" onsubmit=""><div role="list">
-  <ol style="padding-left: 0">
-    <div class="ss-form-question errorbox-good">
+
+<div class="sign_up">
+  <form action="https://docs.google.com/forms/d/1VabeKXIIRgnaO4IziemQ8XBPG580KaVNXNFRlIKtRMg/formResponse" method="POST" id="ss-form" target="_self" onsubmit="">
+    <!-- <div role="list"> -->
+    <!-- <div class="ss-form-question errorbox-good"> -->
+          <input type="text" name="entry.393440603" value="" class="ss-q-short valid" id="entry_393440603" dir="auto" placeholder="Enter Your Email Address" >
+    <!-- </div> -->
+
+    <!-- <div class="ss-form-question errorbox-good">
       <div dir="ltr" class="ss-item ss-text">
         <div class="ss-form-entry">
           <div class="ss-q-title">
           </div>
-        <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
-<input type="text" name="entry.393440603" value="" class="ss-q-short valid" id="entry_393440603" dir="auto" placeholder="Enter Your Email Address" >
-<div class="error-message"></div>
-
-
-</div></div></div>
-
-    <div class="ss-form-question errorbox-good">
-      <div dir="ltr" class="ss-item ss-text">
-        <div class="ss-form-entry">
-          <div class="ss-q-title">
-          </div>
-          <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
+          <div class="ss-q-help ss-secondary-text" dir="ltr"></div> -->
 <input type="text" name="entry.520186104" value="" class="ss-q-short valid_zip" id="entry_520186104" dir="auto" placeholder="Zip Code">
-<div class="error-message"></div>
-</div></div></div>
+<!-- <div class="error-message"></div>
+</div></div></div> -->
 
 <input type="hidden" name="draftResponse" value="[]
 ">
@@ -126,15 +115,17 @@
 <input type="hidden" name="fromEmail" value="false">
 
 
-<div class="ss-item ss-navigate">
+<!-- <div class="ss-item ss-navigate">
   <table id="navigation-table">
     <tbody>
       <tr>
-        <td class="ss-form-entry goog-inline-block" id="navigation-buttons" dir="ltr">
+        <td class="ss-form-entry goog-inline-block" id="navigation-buttons" dir="ltr"> -->
       <input type="submit" name="submit" value="Sign Me Up!" id="ss-submit">
-</td>
+</div>
+<!-- </td>
 </tr></tbody></table></div></div></form></div>
-    </div>
+
+    </div> -->
 
 
   	
@@ -143,14 +134,6 @@
 <!-- Start Social Media -->
 
 <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
-  	<!-- <div id="socialmedia">
-  		<a href=""><img class='social' src="img/facebook.png" alt="Facebook Greenir" /></a>
-  		<a href=""><img class='social' src="img/twitter.png" alt="Twitter Greenir" /></a>
-  		<a href=""><img class='social' src="img/reddit.png" alt="Reddit Greenir" /></a>
-  	</div> -->
-  	<!-- <p style="font-size: 2em;">Let's Get Social!</p> -->
-  <!--   </div>
-  </div> -->
 
 <!-- End Social Media -->
 

@@ -38,7 +38,7 @@ img {
 #signup {
 	color: white;
 	text-align: center;
-	text-shadow: 1px 2px 3px black;
+	/*text-shadow: 1px 2px 3px black;*/
 
 /*	background: url('../img/renewables.png') center;
 	background-size: cover;
@@ -51,7 +51,7 @@ img {
 	font-family: 'Oswald', sans-serif;
 	font-weight: 400;
 	font-size: 30px;
-	text-shadow: 1px 2px 3px black;
+	/*text-shadow: 1px 2px 3px black;*/
   margin-top: 0px;
  /* margin-bottom: 40px;*/
 }
